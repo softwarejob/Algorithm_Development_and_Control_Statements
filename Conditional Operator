@@ -8,3 +8,7 @@ operands and the ?: symbol from a conditional expression:
 
 cout << (studentGrade >= 60 ? "Passed" : "Failed");
 
+在？之間，如果條件為真，則：
+條件為假，則：右側的操作數是條件表示式的值
+
+

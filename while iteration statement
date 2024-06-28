@@ -1,0 +1,11 @@
+The pseudocode statement
+
+while there are more items on my shopping list
+    purchase next item and cross it off my list
+
+
+int product{3};
+
+while (product <= 100) {
+    product = 3 * product;
+}
