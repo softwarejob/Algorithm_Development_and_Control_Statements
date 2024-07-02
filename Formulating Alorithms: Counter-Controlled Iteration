@@ -1,0 +1,27 @@
+pseudocode
+
+set total to zero
+set grade counter to one
+
+while grade counter is less than or equal to ten
+    prompt the user to enter the next grade
+    input the next grade
+    add the grade into the total
+    add one to the grade counter
+
+set the class average to the total divided by ten
+print the class average
+
+注意前面演算法中對總數和計數器的引用。
+總和是一個變數，用於累積幾個值的總和。
+計數器是用於計數的變數——等級計數器指示使用者即將輸入的10個等級中的哪一個。
+用於儲存總數的變數通常在程式中使用之前初始化為零。
+在偽碼中，我們不會在構成偽碼 while 主體的語句周圍使用大括號，但您可以。
+經驗表明，在程式上解決問題最具挑戰性的部分是開發解決方案的演算法。
+一旦指定了正確的演算法，從中生成一個有效的C++程式通常很簡單。
+
+Implementing Counter-Controlled Iteration
+
+計算類平均值。 它允許使用者輸入10個等級，然後計算並顯示平均值。
+
+// move to Solving the class-average problem using counter-controlled iteration.cpp
